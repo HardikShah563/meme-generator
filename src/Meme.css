@@ -1,0 +1,29 @@
+main {
+    padding: 36px;
+}
+
+form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: auto auto;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+}
+
+input {
+    text-indent: 5px;
+}
+
+button {
+    grid-column: 1 / -1;
+    color: var(--white);
+    background: linear-gradient(90deg, var(--violet) 1.18%, var(--magenta) 100%);
+    border: none;
+    cursor: pointer;
+}
