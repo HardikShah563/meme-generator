@@ -22,5 +22,5 @@ body {
   width: 60%;
   margin: 20px auto;
   background-color: var(--white);
-
+  border-radius: 8px;
 }

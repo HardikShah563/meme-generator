@@ -5,6 +5,8 @@
     align-items: center;
     height: 60px;
     background: linear-gradient(90deg, var(--violet) 1.18%, var(--magenta) 100%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .header h1, .header h4 {

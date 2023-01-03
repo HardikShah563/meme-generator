@@ -2,7 +2,7 @@ main {
     padding: 36px;
 }
 
-form {
+.form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 20px;
@@ -26,4 +26,12 @@ button {
     background: linear-gradient(90deg, var(--violet) 1.18%, var(--magenta) 100%);
     border: none;
     cursor: pointer;
+}
+
+.meme--image {
+    grid-column: 1 / -1;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
 }
