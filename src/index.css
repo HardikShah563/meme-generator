@@ -20,7 +20,14 @@ body {
 
 #root {
   width: 60%;
+  height: 100%;
   margin: 20px auto;
   background-color: var(--white);
   border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    #root {
+      width: 96%;
+    }
 }

@@ -1,16 +1,25 @@
 main {
-    padding: 36px;
+    padding: 40px 0px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 20px 0;
 }
 
 .form {
-    display: grid;
-    grid-template: 40px 40px / 1fr 1fr;
+    /* display: grid;
+    grid-template: 40px 40px / 1fr 1fr; */
     gap: 20px;
     width: 80%;
     margin: auto auto;
 }
 
 input, button {
+    width: 100%;
     padding: 10px;
     border: 1px solid var(--grey);
     border-radius: 4px;
@@ -32,6 +41,45 @@ button {
     grid-column: 1 / -1;
     width: 100%;
     height: auto;
-    border: 1px solid var(--grey);
+    border: 1px solid var(--black);
     border-radius: 4px;
+    margin-top: 20px;
+}
+
+.meme {
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+    top: 30px;
+}
+
+.bottom {
+    bottom: 20px;
 }
