@@ -9,9 +9,14 @@ export default function Footer() {
             <footer className="footer">
                 <hr />
 
-                <h3 className="flex">
-                    Developed with <FaHeart fill="red" /> by <a href="https://www.hellohardik.xyz">Hello Hardik</a>
-                </h3>
+                <h4>
+                    <span className="flex">
+                    Developed With
+                    <FaHeart fill="red" /> 
+                    <span>by</span>
+                    <a href="https://www.hellohardik.xyz">Hello Hardik</a>
+                    </span>
+                </h4>
 
                 <div className="flex">
                     <a target="_blank" className="social-media-icon" href="https://www.hellohardik.xyz/">
