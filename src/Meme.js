@@ -1,8 +1,5 @@
 import React from 'react';
 // import memesData from './memesdata'
-import './Meme.css';
-import boxes from './boxes.js'
-import Box from './Box.js'
 
 export default function Meme() {
     const [meme, setMeme] = React.useState({
@@ -94,6 +91,10 @@ export default function Meme() {
                     </h2>
                 </div>
             </form>
+
+            <footer>
+                Developed with Love by <a href="https://www.hellohardik.xyz">Hello Hardik</a>
+            </footer>
         </main>
     )
 }
